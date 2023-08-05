@@ -171,4 +171,8 @@ public class ProxySampleTest implements IAbstractTest {
         Assert.assertTrue(newsPage.isPageOpened(), "News page is not opened!");
     }
 
+	public static Logger getLogger() {
+		return LOGGER;
+	}
+
 }
